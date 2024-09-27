@@ -77,7 +77,7 @@
 
 <!-- Svelte code -->
 <main class="container mx-auto py-8">
-  <h1 class="text-3xl font-bold mb-4">Patient Management</h1>
+  <h1 class="text-3xl font-bold mb-4">Simple Patient Management System</h1>
   <div class="flex flex-wrap justify-between w-full">
     <input on:keyup={(e) => debounce(e.target)} type="text" class="w-3/4 border rounded p-2 mb-4" placeholder="Search with name or phone number">
     <button class="w-1/5 p-2 text-white bg-blue-500 hover:bg-blue-600 rounded"><a href="/Patient">Create Patient</a></button>
